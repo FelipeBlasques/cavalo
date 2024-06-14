@@ -27,9 +27,11 @@ A sequência de passos do cavalo do ponto inicial ao ponto final
 
 O arquivo de entrada deve ter o seguinte formato:
 
+```
 N
 x0 y0
 xf yf
+```
 
 Onde:
 
@@ -38,6 +40,7 @@ x0,y0 são as coordenadas iniciais
 xf,yf são as coordenadas finais
 
 Exemplo:
+
 ```
 8
 0 0
@@ -48,19 +51,25 @@ Exemplo:
 
 O arquivo de saída gerado terá o seguinte formato:
 
+```
 Quantidade minima de passos: X
 
 Passo 0: (x0, y0)
 Passo 1: (x1, y1)
 ...
 Passo X: (xf, yf)
+```
 
 ## Como Executar
 
 Certifique-se de que todos os arquivos necessários estão na estrutura correta.
 Crie um arquivo de entrada conforme o formato descrito acima e salve-o em entrada-saida/entrada.txt.
 Execute o script principal:
+
+```
 python main.py
+```
+
 Verifique o arquivo de saída gerado em entrada-saida/saida.txt
 
 ## Explicação do Código
@@ -99,13 +108,17 @@ Escreve o caminho encontrado no arquivo de saída usando write_output.
 
 Suponha que o arquivo entrada-saida/entrada.txt contenha:
 
+```
 8
 0 0
 7 7
+```
 
 Execute o script principal:
 
+```
 python main.py
+```
 
 O arquivo entrada-saida/saida.txt será gerado com o caminho encontrado.
 
