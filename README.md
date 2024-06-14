@@ -38,10 +38,11 @@ x0,y0 são as coordenadas iniciais
 xf,yf são as coordenadas finais
 
 Exemplo:
-
+```
 8
 0 0
 7 7
+```
 
 ## Estrutura do Arquivo de Saída
 
