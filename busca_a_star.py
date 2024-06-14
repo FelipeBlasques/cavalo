@@ -32,10 +32,9 @@ def a_star(x0, y0, xf, yf, N):
 
     return None
 
-
 def reconstruct_path(current, came_from):
     path = [current]
     while current in came_from:
         current = came_from[current]
         path.append(current)
-    return [(x, y) for x, y in path[::-1]]
+    return path[::-1]
