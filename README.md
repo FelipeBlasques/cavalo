@@ -5,9 +5,13 @@ Este repositório contém uma implementação do algoritmo A* para encontrar o c
 ## Estrutura dos Arquivos
 
 movimentos.py: Define as possíveis jogadas de um cavalo no xadrez.
+
 heuristica.py: Define a função de distância de Manhattan, usada como heurística no algoritmo A*.
+
 entrada_saida.py: Define funções para ler entradas de um arquivo e escrever saídas em um arquivo.
+
 busca_a_star.py: Implementa o algoritmo A* usando a heurística de distância de Manhattan e as possíveis jogadas do cavalo.
+
 main.py: Script principal que lê a entrada, executa o algoritmo A* e escreve a saída.
 
 ## Arquivos de Entrada e Saída
@@ -15,7 +19,9 @@ main.py: Script principal que lê a entrada, executa o algoritmo A* e escreve a 
 ### entrada-saida/entrada.txt: Arquivo de entrada contendo:
 
 A dimensão do tabuleiro N
+
 As coordenadas iniciais x0, y0
+
 As coordenadas finais xf, yf
 
 ### entrada-saida/saida.txt: 
@@ -23,6 +29,7 @@ As coordenadas finais xf, yf
 Arquivo de saída gerado pelo programa contendo:
 
 A quantidade mínima de passos
+
 A sequência de passos do cavalo do ponto inicial ao ponto final
 
 ## Estrutura do Arquivo de Entrada
@@ -38,7 +45,9 @@ xf yf
 Onde:
 
 N é a dimensão do tabuleiro (NxN)
+
 x0,y0 são as coordenadas iniciais
+
 xf,yf são as coordenadas finais
 
 Exemplo:
@@ -65,6 +74,7 @@ Passo X: (xf, yf)
 ## Como Executar
 
 Certifique-se de que todos os arquivos necessários estão na estrutura correta.
+
 Crie um arquivo de entrada conforme o formato descrito acima e salve-o em entrada-saida/entrada.txt.
 
 Execute o script principal:
