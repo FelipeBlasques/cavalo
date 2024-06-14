@@ -16,7 +16,9 @@ main.py: Script principal que lê a entrada, executa o algoritmo A* e escreve a 
 
 ## Arquivos de Entrada e Saída
 
-### entrada-saida/entrada.txt: Arquivo de entrada contendo:
+### entrada-saida/entrada.txt: 
+
+Arquivo de entrada contendo:
 
 A dimensão do tabuleiro N
 
